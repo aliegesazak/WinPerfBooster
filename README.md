@@ -23,7 +23,7 @@ WinPerfBooster, Windows işletim sistemini optimize etmek için kullanılan bir 
 2. Aşağıdaki komutu çalıştırın:
 
    ```powershell
-   irm "https://aliegesazak.com/WinPerfBooster/" | iex
+   irm "https://aliegesazak.com/winperfbooster/" | iex
    ```
 
    - Bu komut, **WinPerfBooster** scriptini **aliegesazak.com** üzerinden çeker ve çalıştırır.
