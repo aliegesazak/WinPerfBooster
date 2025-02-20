@@ -68,9 +68,18 @@ if (Confirm-Action "- Çöp kutusunu temizlemek ister misiniz?") {
 }
 
 if (Confirm-Action "- Gereksiz başlangıç programlarını devre dışı bırakmak ister misiniz?") {
-    Get-CimInstance Win32_StartupCommand | Select-Object Name, Command, Location, User | Format-Table -AutoSize
+    $startupPrograms = Get-CimInstance Win32_StartupCommand | Select-Object Name, Command, Location, User
+    $startupPrograms | Format-Table -AutoSize
     Write-Host "Başlangıç programlarını görmek için yukarıdaki listeye bakabilirsiniz."
-    Write-Host "- Lütfen 'Task Manager' üzerinden devre dışı bırakın."
+    
+    foreach ($program in $startupPrograms) {
+        $confirm = Read-Host "Devre dışı bırakmak ister misiniz? ($($program.Name)) (Y/N)"
+        if ($confirm -eq "Y") {
+            Stop-Process -Name $program.Name -Force
+            Write-Host "$($program.Name) devre dışı bırakıldı." -ForegroundColor Green
+        }
+    }
+    Write-Host "- Başlangıç programlarını devre dışı bırakmak için 'Task Manager' üzerinden ayarlamalar yapabilirsiniz." 
 }
 
 Write-Host "- Tüm işlemler tamamlandı! Bilgisayarınız daha hızlı çalışacak!" -ForegroundColor Cyan
