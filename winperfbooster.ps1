@@ -1,5 +1,5 @@
 ﻿# WinPerfBooster Script
-Write-Host "🚀 WinPerfBooster Başlıyor 🚀" -ForegroundColor Cyan
+Write-Host "- WinPerfBooster Başlıyor -" -ForegroundColor Cyan
 
 function Confirm-Action {
     param ([string]$Message)
