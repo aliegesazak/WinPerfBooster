@@ -9,7 +9,7 @@ WinPerfBooster, Windows işletim sistemini optimize etmek için kullanılan bir 
 - 🧠 **RAM temizliği (Boşta çalışan belleklerin temizlenmesi)**
 - 💾 **Disk optimizasyonu (SSD TRIM, HDD defrag)**
 - 🕒 **Windows güncellemeleri geçmişinin temizliği**
-- ⏳ **Eski Windows güncellemelerinin temizliği**
+- 🕰️ **Eski Windows güncellemelerinin temizliği**
 - ⚙️ **Gereksiz Windows hizmetlerini devre dışı bırakma**
 - ⚡ **En yüksek performans gücü planına geçiş**
 - 🗑️ **Çöp kutusunun temizlenmesi**
