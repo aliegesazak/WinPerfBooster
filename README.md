@@ -4,6 +4,7 @@ WinPerfBooster, Windows işletim sistemini optimize etmek için kullanılan bir 
 
 ## Özellikler
 
+- :computer: **Microsoft C++ Redistribute 2005'ten itibaren kurulumu**
 - 🧹 **Temp, Prefetch ve %Temp% klasörlerinin temizliği**
 - 🌐 **DNS, Winsock ve ağ önbelleği temizliği**
 - 🧠 **RAM temizliği (Boşta çalışan belleklerin temizlenmesi)**
