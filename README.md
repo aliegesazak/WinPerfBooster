@@ -37,11 +37,11 @@ Eğer yukarıdaki yöntem çalışmazsa, scripti GitHub üzerinden de indirebili
 irm "https://github.com/aliegesazak/WinPerfBooster/raw/main/winperfbooster.ps1" | iex
 ```
 
-⚠️ **Dikkat:**
-Eğer rar dosyasını indirecek link aktif değilse linki şu link ile değiştirebilirsiniz
-```
-https://web.archive.org/web/20250302151855/https://aliegesazak.com/vcredists.rar
-```
+!!! warning
+    **Dikkat:** Eğer rar dosyasını indirecek link aktif değilse, linki şu link ile değiştirebilirsiniz:
+
+    [https://web.archive.org/web/20250302151855/https://aliegesazak.com/vcredists.rar](https://web.archive.org/web/20250302151855/https://aliegesazak.com/vcredists.rar)
+
 
 ### **Kullanıcı Onayları**
 
